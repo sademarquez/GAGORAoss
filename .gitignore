@@ -1,0 +1,31 @@
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-wheel-metadata/
+.installed.cfg
+*.egg-info/
+*.egg
+
+# Docker build context
+.dockerignore
+
+# Large model and data files
+/models/
+/optimized/
+/ollama_models/
+/registry_data/
+
+# IDE configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
